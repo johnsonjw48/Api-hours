@@ -82,7 +82,7 @@ app.get('/openingHoursWithDelay', function(req, res) {
 
 const addHours = ({from, to, days}) => {
 
-  console.log(from)
+  console.log(fro)
 
   const openingHours2 = openingHours.map(item => {
       if (days.includes(item.day)) {
